@@ -1,1 +1,1 @@
-console.log('1223234')
+console.log('1223234');
