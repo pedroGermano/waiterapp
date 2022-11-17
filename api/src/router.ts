@@ -34,8 +34,15 @@ router.patch('/orders/:orderId', (req, res) => {
   res.send('ok');
 });
 
+router.delete('/orders/:orderId', (req, res) => {
+  res.send('ok');
+});
+
+
 
 
 router.delete('/orders/:orderId', (req, res) => {
   res.send('ok');
 });
+
+// 1:37:00s
