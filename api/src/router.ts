@@ -38,3 +38,6 @@ router.patch('/orders/:orderId', (req, res) => {
 router.delete('/orders/:orderId', (req, res) => {
   res.send('ok');
 });
+router.delete('/orders/:orderId', (req, res) => {
+  res.send('ok');
+});
