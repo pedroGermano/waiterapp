@@ -11,6 +11,8 @@ mongoose.connect('mongodb://localhost:27017')
 
     app.listen(port, () => {
       console.log(`🚀 Server is running on http://localhost${port}`);
+      console.log(`🚀 Server is running on http://localhost${port}`);
+
     });
   })
   .catch(() => console.log('Erro ao conectar ao mongodb'));
