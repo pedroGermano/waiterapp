@@ -1,11 +1,11 @@
 import { Request, Response } from 'express';
 
-import { Category } from '../../models/Category';
+import { Product } from '../../models/Product';
 
 export async function listProducts(req: Request, res: Response) {
     try{
-        const categories = await Category.find();
-        res.json(categories);
+        const products = await Product.find();
+        res.json(products);
     } catch (error){
         console.log(error);
         res.sendStatus(500);
