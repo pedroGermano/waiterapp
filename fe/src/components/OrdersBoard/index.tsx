@@ -1,10 +1,11 @@
+import { Order } from '../../types/Order';
 import {  Board, OrdersContainer } from './styles';
 
 
 interface OrdersBoardProps{
   icon: string;
   title: string;
-
+  orders: Order[];
 }
 
 export function OrdersBoard({icon, title}: OrdersBoardProps){
