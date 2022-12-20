@@ -12,13 +12,15 @@ interface OrdersBoardProps{
 
 export function OrdersBoard({icon, title, orders}: OrdersBoardProps){
   const [isModalVisible, setModalIsVisible] = useState(false);
+
   function handleOpenModal(){
-    alert('teste');
+    setModalIsVisible(true);
   }
   return (
     <>
       <Board>
-        <OrderModal />
+        <OrderModal visible={isModalVisible} />
+
         <header>
           <span>{icon}</span>
           <strong>{title}</strong>

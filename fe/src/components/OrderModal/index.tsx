@@ -1,9 +1,26 @@
-import { Overlay } from './styles';
+import { Overlay, ModalBody } from './styles';
 
-export function OrderModal(){
+import close from '../../assets/images/close-icon.svg';
+
+interface OrderModalProps {
+  visible: boolean;
+}
+
+export function OrderModal({ visible }: OrderModalProps ){
+  if (!visible) {
+    return null;
+  }
+
   return(
     <Overlay>
-      <h1>Orders</h1>
+      <ModalBody>
+        <header>
+          <strong>Mesa 2</strong>
+          <button type='button'>
+            <img src={close} alt="close icon" />
+          </button>
+        </header>
+      </ModalBody>
     </Overlay>
   );
 }
