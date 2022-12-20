@@ -25,7 +25,8 @@ const orders: Order[] = [
         },
         'quantity': 1,
         '_id': '639a4f48633f4f078658a81d'
-      }
+      },
+
     ],
   }
 ];
