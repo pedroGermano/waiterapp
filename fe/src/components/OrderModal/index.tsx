@@ -20,6 +20,10 @@ export function OrderModal({ visible }: OrderModalProps ){
             <img src={close} alt="close icon" />
           </button>
         </header>
+
+        <div className="status-container">
+
+        </div>
       </ModalBody>
     </Overlay>
   );

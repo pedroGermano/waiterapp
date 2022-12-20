@@ -19,4 +19,20 @@ export const ModalBody = styled.div`
   border-radius: 8px;
   padding: 32px;
 
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    strong {
+      font-size: 24px;
+    }
+
+    button {
+      border: 0;
+      background: transparent;
+      line-height: 0;
+    }
+  }
+
 `;
