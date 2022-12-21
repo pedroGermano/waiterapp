@@ -42,5 +42,18 @@ export const ModalBody = styled.div`
       font-size: 14px;
       opacity: 0.8;
     }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 8px3;
+    }
   }
+`;
+
+
+export const OrderDetails = styled.div`
+   margin-top: 32px;
+
 `;

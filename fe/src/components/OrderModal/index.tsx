@@ -1,4 +1,4 @@
-import { Overlay, ModalBody } from './styles';
+import { Overlay, ModalBody, OrderDetails } from './styles';
 
 import close from '../../assets/images/close-icon.svg';
 
@@ -28,6 +28,10 @@ export function OrderModal({ visible }: OrderModalProps ){
             <strong>Fila de espera</strong>
           </div>
         </div>
+
+        <OrderDetails>
+          <strong>Itens</strong>
+        </OrderDetails>
       </ModalBody>
     </Overlay>
   );
