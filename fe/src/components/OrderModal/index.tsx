@@ -22,7 +22,11 @@ export function OrderModal({ visible }: OrderModalProps ){
         </header>
 
         <div className="status-container">
-
+          <small>Status do Pedido</small>
+          <div>
+            <span>🕔</span>
+            <strong>Fila de espera</strong>
+          </div>
         </div>
       </ModalBody>
     </Overlay>
