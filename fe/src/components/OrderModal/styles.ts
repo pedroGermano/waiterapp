@@ -47,7 +47,7 @@ export const ModalBody = styled.div`
       display: flex;
       align-items: center;
       gap: 8px;
-      margin-top: 8px3;
+      margin-top: 8px;
     }
   }
 `;
@@ -56,4 +56,9 @@ export const ModalBody = styled.div`
 export const OrderDetails = styled.div`
    margin-top: 32px;
 
+   > strong{
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.8;
+   }
 `;
