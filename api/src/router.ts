@@ -1,6 +1,7 @@
 import path from 'node:path';
 import { Router } from 'express';
 import multer from 'multer';
+
 import { listCategories } from './app/useCases/categories/listCategories';
 import { createCategory } from './app/useCases/categories/createCategory';
 import { listProducts } from './app/useCases/products/listProducts';
